@@ -1,0 +1,192 @@
+.jumbotron {
+    background-image: url(assets/Dimmed\ Ignite4.jpg);
+    background-size: cover;
+}
+
+.container {
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+    background-color: transparent !important;
+}
+
+.h1 {
+    font-size: 32px;
+    margin-right: 100px;
+}
+
+.item {
+    justify-content: center;
+}
+
+.h2 {
+    font-size: 28px;
+    margin: 50px;
+}
+
+p {
+    margin: 10px;
+    font-size: 20px;
+    font-weight: bold;
+    color: whitesmoke;
+    text-align: center;
+}
+
+.gallery-container {
+    text-align: center;
+}
+
+.li {
+    padding: 15px;
+    color: white;
+}
+
+.navbar-brand {
+    display: flex;
+    font-size: 32px;
+    font-weight: bold;
+    background-color: #2c35ac;
+    padding-left: 75px;
+}
+
+.navbar {
+    /* display: floa; */
+    justify-content: right;
+    font-size: 24px;
+    font-weight: bold;
+    background-color: rgb(44, 53, 172) !important;
+}
+
+.images {
+    width: 200px;
+    height: auto;
+    border: 5px solid rgb(44, 53, 172);
+    margin-top: 20px;
+}
+
+h3 {
+    font-size: 32px;
+    font-style: italic;
+    display: inline-flex;
+    margin-top: 10px;
+    margin-left: 15px;
+    margin-bottom: 20px;
+}
+
+.button {
+    justify-items: right;
+    margin-right: 0px;
+}
+
+
+/* .row {
+    margin-left: 7px;
+    margin-right: 7px;
+    justify-content: left;
+} */
+
+.row,
+.row>.column {
+    padding: 8px;
+}
+
+.column {
+    float: center;
+    width: 100%;
+}
+
+
+/* Clear floats after rows */
+
+
+/* .row:after {
+    content: "";
+    display: table;
+    clear: both;
+} */
+
+
+/* #downtown #timbers {
+    margin-left: 20px;
+    margin-right: 20px;
+}
+
+#ginger #trillium {
+    margin-left: 10px;
+    margin-right: 10px;
+} */
+
+.words {
+    font-size: 18px;
+    font-style: italic;
+    padding: 10px;
+    position: relative;
+    text-align: center;
+    color: darkgrey;
+}
+
+
+/* .card {
+    padding: 10px;
+    margin: 0 auto;
+    display: mx auto;
+    width: auto;
+    horzontal margin: auto;
+} */
+
+
+/* .pic-container {
+    align-items: center;
+    justify-content: space-evenly;
+    width: 75%;
+    padding: 10px;
+} */
+
+
+/* .images {
+    margin-left: 10px;
+    margin-right: 10px;
+} */
+
+
+/* .contact-container { */
+
+
+/*.body {
+    width: 80%;
+    position: justify-center;
+    ;
+}
+*/
+
+.gallery-container {
+    border: 10px;
+    border-color: rgb(61, 82, 82);
+    display: flexbox;
+    /* justify-content: center; */
+    flex-direction: row;
+    /* width: 80%; */
+}
+
+
+/* // Extra small devices (portrait phones, less than 576px)
+// No media query since this is the default in Bootstrap
+// Small devices (landscape phones, 576px and up)
+@media (min-width: 576px) {
+    ...
+}
+
+// Medium devices (tablets, 768px and up)
+@media (min-width: 768px) {
+    ...
+}
+
+// Large devices (desktops, 992px and up)
+@media (min-width: 992px) {
+    ...
+}
+
+// Extra large devices (large desktops, 1200px and up)
+@media (min-width: 1200px) {
+    ...
+} */
