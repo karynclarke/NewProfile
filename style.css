@@ -1,8 +1,10 @@
 .jumbotron {
-    background-image: url(assets/Dimmed\ Ignite4.jpg);
-    background-size: cover;
     margin-top: 20px;
+    margin-right: 20px;
     margin-bottom: 0px;
+    background-color: transparent;
+    display: flex;
+    align-items: center;
 }
 
 .container {
@@ -25,11 +27,12 @@
 }
 
 p {
-    margin: 10px;
+    margin-left: 5px;
+    margin-right: 20px;
     font-size: 20px;
     font-weight: bold;
-    color: whitesmoke;
     text-align: center;
+    color: whitesmoke;
 }
 
 .li {
@@ -46,7 +49,6 @@ p {
 }
 
 .navbar {
-    /* display: floa; */
     justify-content: right;
     font-size: 24px;
     font-weight: bold;
@@ -64,10 +66,11 @@ p {
 h3 {
     font-size: 32px;
     font-style: italic;
-    text-align: center;
     margin-top: 10px;
     margin-left: 15px;
     margin-bottom: 20px;
+    color: rgb(78, 29, 29);
+    text-align: center;
 }
 
 .button {
@@ -85,14 +88,44 @@ h3 {
 }
 
 .gallery-container {
-    /* display: flexbox; */
-    /* flex-direction: row; */
+    display: flexbox;
+    flex-direction: row;
     justify-content: center;
     text-align: center;
+    justify-content: stretch;
+    align-items: center;
 }
 
-.portfolioPic {
+#background {
     background-image: url(assets/PinkTreeAfter.jpg);
     background-size: cover;
-    margin-bottom: 0;
 }
+
+#indexImage {
+    background-image: url(assets/Dimmed\ Ignite4.jpg);
+    background-size: cover;
+}
+
+#contactImage {
+    background-image: url(assets/rainbow.JPG);
+    background-size: cover;
+}
+
+#icons {
+    font-size: 75px;
+}
+
+.fab {
+    color: rgb(78, 29, 29);
+}
+
+#icons a:hover {
+    background-color: dark grey;
+    color: rgb(51, 26, 26);
+}
+
+
+/* .contact.container {
+    display: flex;
+    align-items: center;
+} */
