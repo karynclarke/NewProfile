@@ -9,11 +9,10 @@
 
 .container {
     display: flex;
-    flex-direction: row;
+    /* flex-direction: row; */
     width: 100%;
     height: 100%;
     background-color: transparent !important;
-    word-wrap: break-word;
 }
 
 .h1 {
@@ -56,11 +55,12 @@ p {
 }
 
 .images {
-    width: 200px;
+    width: 225px;
     height: auto;
     border: 5px solid rgb(44, 53, 172);
     margin-top: 10px;
     margin-left: 40px;
+    margin-right: 0px;
 }
 
 h3 {
@@ -113,6 +113,7 @@ h3 {
 
 #icons {
     font-size: 75px;
+    align-items: center;
 }
 
 .fab {
@@ -124,8 +125,12 @@ h3 {
     color: rgb(51, 26, 26);
 }
 
+#email a:hover {
+    background-color: dark grey;
+    color: rgb(51, 26, 26);
+}
 
-/* .contact.container {
-    display: flex;
-    align-items: center;
-} */
+.row {
+    justify-content: center;
+    margin-top: 35px;
+}
